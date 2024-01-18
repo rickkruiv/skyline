@@ -37,14 +37,14 @@ body {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    height: 420px;
     object-fit: cover;
     margin: auto;
 
     border-radius: 20px;
     box-shadow: 0 0 10px -1px #00000089;
 
-    animation: images-rotation 15s step-end infinite ;
+    animation: images-rotation 15s step-end alternate infinite ;
     transition: .2s;
 }
 
@@ -114,7 +114,7 @@ h2 {
     box-shadow: 0px 0px 10px -4px rgb(0, 0, 0, 0.2);
 }
 
-.topic-title:hover {
+.topic:hover > .topic-title{
     padding-left: 25px;
     border-left: 3.5px solid #add8e6;
 }

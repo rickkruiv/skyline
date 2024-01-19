@@ -111,6 +111,7 @@ h2 {
 .topic-title {
     text-align: left;
     margin: 10px 10px 20px;
+    user-select: none;
     
     transition: .2s ;
 }
@@ -145,6 +146,8 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
+
+    user-select: none;
 }
 
 .frase {
